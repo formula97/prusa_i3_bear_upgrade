@@ -1,14 +1,16 @@
-# Prusa i3 Bear Upgrade 2.1
+# Bear Frame Upgrade 2.1
 
-
-:warning: **This is a development branch, use it at your own risk.** :warning:
 
 
 ## Table of contents
   1. [Introduction](#introduction)
-  1. [New features since Bear Upgrade 2.0](#new-features-since-bear-upgrade-20)
+  1. [Features](#features)
+  1. [New features since Bear Frame 2.0](#new-features-since-bear-frame-20)
   1. [Compatibility](#compatibility)
-  1. [Manual](#manual)
+  1. [Printed parts](#printed-parts)
+  1. [Print settings](#print-settings)
+  1. [Assembly guide](#assembly-guide)
+  1. [Bill of materials](#bill-of-materials)
   1. [Optional parts](#optional-parts)
   1. [Community](#community)
   1. [Where can I get an official kit?](#where-can-i-get-an-official-kit)
@@ -20,116 +22,163 @@
 
 
 
-
 ## Introduction
 
-The Bear Upgrade replaces the original [Prusa i3 MK2(S), MK2.5(S) and MK3(S)](https://www.prusa3d.com/) frame with a more rigid and reliable solution. It allows faster prints, increases precision, makes maintenance easier and opens the door to more customizations. Plus it looks unique with our coloured frames!
+The Bear Frame Upgrade improves stiffness and reliability of the original [Prusa i3 MK2(S), MK2.5(S) and MK3(S)](https://www.prusa3d.com/). It allows faster prints, increases precision, makes maintenance easier and opens the door to more customisations. Plus it looks unique with our coloured frames!
 
-![Bear Upgrade 2.1 MK3S](doc/rendering/mk3_home_right_882px.jpg)
+![Bear Frame Upgrade 2.1 MK3S](extra/photos/frame_01_900px.jpg)
 
 
 
-## New features since Bear Upgrade 2.0
+## Features
 
+  * Compatible with Original Prusa i3 MK2(S), MK2.5(S) and MK3(S)
+  * Reuse of as many parts as possible
+  * Sturdy frame for faster printing
+  * High quality extrusions
+  * Custom, sturdier t-nuts
+  * Improved accuracy
+  * Reduced noise level
+  * Easy to use and maintain
+  * Built to last
+  * Precisely engineered printed parts
+  * Thoroughly tested development
+  * Highly customisable
+  * Detailed documentation via [guides.bear-lab.com](https://guides.bear-lab.com/)
+  * Active and open minded community
+  * Truly open source
+
+
+
+## New features since Bear Frame 2.0
+
+  * Improved assembly guide and documentation (via [guides.bear-lab.com](https://guides.bear-lab.com/))
   * Single frame for all Prusa versions (same frame as Full Bear 2.0 MK3)
   * New stiffer Y axis with tensioner
   * New stiffer Z axis
-  * Improve X and Y axis homing accuracy
-  * Improve Z axis alignment and assembly
-  * Reduce Y axis stepper noise for MK3(S)
+  * Improved X and Y axis homing accuracy
+  * Improved Z axis alignment and assembly
+  * Reduced Y axis stepper noise for MK3(S)
   * New build helpers for Y and Z axis
-  * Support all Prusa PSU
+  * Support for all Prusa PSUs
+  * Custom, sturdier t-nuts
   * Shorter LCD supports
   * New custom LCD cover
-  * Nicer and stronger end caps
+  * Nicer and more resistant end caps
   * Easier assembly of printed parts
-  * Improve wire management with new cable clips
+  * Improved wire management with new cable clips
   * Stiffer mounts for Rambo Mini/Einsy cover
   * Compatible with E3D Gates idlers as well as 9mm belt
-
-:warning: This a work in progress, the current kits sold by our official distributors are not containing the hardware necessary for this upgrade.
 
 
 
 ## Compatibility
 
-This Bear Upgrade 2.1 is compatible with Full Bear Upgrade 2.0 __MK3__ frame. If you do not know which frame you have please check [our FAQ here](https://guides.bear-lab.com/Wiki/Bear_FAQ#Section_Which_Full_Bear_frame_do_I_have).
+This Bear Frame Upgrade 2.1 is compatible with the Full Bear Frame Upgrade 2.0 __MK3__ frame. If you do not know which frame you have please check [our FAQ here](https://guides.bear-lab.com/Wiki/Bear_FAQ#Section_Which_Full_Bear_frame_do_I_have).
 
-:bulb: If you have a Full Bear Upgrade 2.0 MK2S or MK2.5 frame you can find compatible parts here: [optional_parts/bear_2.0_upgrade_mk2-2s-2.5-2.5s](optional_parts/bear_2.0_upgrade_mk2-2s-2.5-2.5s/README.md).
+:bulb: If you have a Full Bear Frame Upgrade 2.0 MK2S or MK2.5 frame you can find compatible parts in the [optional parts section](#optional-parts) below.
 
 :warning: The new Y and Z axis are __not__ compatible with any of the existing Prusa or Bear 2.0 parts. You have to update all parts from Bear 2.1.
 
 
 
-## Manual
+## Printed parts
 
-The manual contains bill of materials (BOM), print settings and assembly instructions.
+:bulb: All links here correspond to the latest stable release.
 
-[Read the manual here :book:](manual/README.md)
+:warning: Warning: It is important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+
+**Printed parts:**
+  * Bear Frame 2.1 for MK3(S) STL files: [bear21_mk3-3s_stl.zip](../../releases/latest/download/bear21_mk3-3s_stl.zip)
+  * Bear Frame 2.1 for MK2(S) or MK2.5(S) STL files: [bear21_mk2-2s-25-25s_stl.zip](../../releases/latest/download/bear21_mk2-2s-25-25s_stl.zip)
+  * Bear Frame 2.1 optional parts (check [optional parts section](#optional-parts) below) files: [bear21_optional_parts.zip](../../releases/latest/download/bear21_optional_parts.zip)
+
+**CAD, drawings and source files**:
+  * Bear 2.1 frame for MK3(S) CAD files and mechanical drawings: [bear21_cad_drawings_files.zip](../../releases/latest/download/bear21_cad_drawings_files.zip)
+  * All source files (this complete repository): Go the to latest release [here](../../releases/latest) and in the bottom of the release note, under the Assets, click on "Source code" (you can choose between zip and tar.gz files).
+
+
+
+## Print settings
+
+:warning: Warning: It is important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+
+[Read the print settings here](doc/print_settings.md).
+
+
+
+## Assembly guide
+
+[Read the assembly guide here](https://guides.bear-lab.com/c/Frame).
+
+
+
+## Bill of materials
+
+[Read the BOM here](doc/bom.md).
 
 
 
 ## Optional parts
 
-Here is the list of official optional parts for the Bear extruder and X axis.
+#### Official optional parts
 
 | Description | Link |
 |-------------|------|
-| Upgrade parts fo Bear 2.0 MK2(S), MK2.5(S) frame | [bear_2.0_upgrade_mk2-2s-2.5-2.5s](optional_parts/bear_2.0_upgrade_mk2-2s-2.5-2.5s/README.md) |
+| Upgrade parts for Bear 2.0 MK2(S), MK2.5(S) frame | [bear_2.0_upgrade_mk2-2s-2.5-2.5s](optional_parts/bear_2.0_upgrade_mk2-2s-2.5-2.5s/README.md) |
 | LCD cover | [lcd_cover](optional_parts/lcd_cover/README.md) |
 | MMU2(S) frame holder adapter | [mmu2_adapter](optional_parts/mmu2_adapter/README.md) |
 | Y idler for larger 9mm 2GT belt | [y_idler_9mm_belt](optional_parts/y_idler_9mm_belt/README.md) |
 | Y idler tensioner for E3D idler | [y_idler_tensioner_e3d](optional_parts/y_idler_tensioner_e3d/README.md) |
-| Bear Extruder and X Axis | [Bear Extruder and X axis for MK2.5S MK3S](https://www.thingiverse.com/thing:4362586) |
+| Bear Extruder and X Axis | [Bear Extruder and X axis for MK2.5S MK3S](https://github.com/gregsaun/bear_extruder_and_x_axis) |
 
-You can also find optional parts designed by the community at [guides.bear-lab.com/Wiki/community_optional_parts](https://guides.bear-lab.com/Wiki/community_optional_parts).
+#### Community's optional parts
+
+Find optional parts designed by the community at [guides.bear-lab.com/Wiki/community_optional_parts](https://guides.bear-lab.com/Wiki/community_optional_parts).
 
 
 
 ## Community
 
-Here are the places were the Bear project is the most active. Do not hesitate to ask if you have a question :
+Here are the places were The Bear project is the most active on:
 
-* Facebook group : [facebook.com/groups/PrusaBearUpgrade](https://www.facebook.com/groups/PrusaBearUpgrade)
 * Discord server of "The 602 Wasteland" community : [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
+* Facebook group : [facebook.com/groups/PrusaBearUpgrade](https://www.facebook.com/groups/PrusaBearUpgrade)
+* Twitter : [@gregoiresaunier](https://twitter.com/gregoiresaunier)
 * GitHub : [github.com/gregsaun](https://github.com/gregsaun)
-* Thingiverse : [thingiverse.com/pekcitron](https://www.thingiverse.com/pekcitron)
-* Openbuilds community : [openbuilds.com/builds/prusa-i3-bear-upgrade-v2.6428](https://openbuilds.com/builds/prusa-i3-bear-upgrade-v2.6428/)
+
+Do not hesitate to ask if you have a question.
 
 
 
 ## Where can I get an official kit?
 
-Official distributors are selling a kit with all screws and extrusions ready for the upgrade, you will only need to print latest 3D printed parts.
+Official distributors are selling a kit with all screws and extrusions ready for the upgrade from an Original Prusa, you will only need to print 3D printed parts.
 
-All distributors are following [specifications](doc/vslot_specs_tolerances.pdf) to ensure you will have a perfectly squared Bear. All distributors are using professional machines dedicated to cut aluminum extrusion (like CNC machines). In case your extrusion is out of specifications, you can get a replacement for free. We have created a dedicated support channel in case customers have more technical questions or need information for a custom build.
-
-  * ![all3d makers logo](doc/distributors/all3dmakers_logo.png)  
+  * ![all3d makers logo](extra/distributors/all3dmakers_logo.png)  
      All3D Makers (US)  
      [all3dmakers.com](http://all3dmakers.com/)  
 
 
-  * ![blackfrog logo](doc/distributors/blackfrog_logo.jpg)  
+  * ![blackfrog logo](extra/distributors/blackfrog_logo.jpg)  
      Blackfrog (EU)  
      [blackfrog.pl](https://blackfrog.pl)  
 
-  * ![lecktor logo](doc/distributors/lecktor_logo.png)  
+
+  * ![lecktor logo](extra/distributors/lecktor_logo.png)  
     Lecktor (EU)  
     [lecktor.com](http://lecktor.com)  
 
-  * ![makerparts.ca logo](doc/distributors/makerpartsca_logo.jpg)  
+
+  * ![makerparts.ca logo](extra/distributors/makerpartsca_logo.jpg)  
     Makerparts.ca (CA)  
     [makerparts.ca](http://makerparts.ca)  
 
 
-  * ![ooznest logo](doc/distributors/ooznest_logo.png)  
+  * ![ooznest logo](extra/distributors/ooznest_logo.png)  
     Ooznest (EU)  
     [ooznest.co.uk](https://ooznest.co.uk/)  
 
-
-  * ![ratrig logo](doc/distributors/ratrig_logo.jpg)  
-    RatRig (EU)  
-    [www.ratrig.com](http://www.ratrig.com/)  
 
 By purchasing a kit from official distributors you are supporting the development of the Bear project, thank you very much!
 
@@ -137,27 +186,27 @@ By purchasing a kit from official distributors you are supporting the developmen
 
 ## Partners and contributors
 
-![LDO Motors](doc/partners/ldo_motors.png) &nbsp;[LDO Motors](http://ldomotors.com/) is the manufacturer of the Original Bear upgrade kit for all distributors with the exception of [RatRig](http://www.ratrig.com/).
+![LDO Motors](extra/partners/ldo_motors.png) &nbsp;[LDO Motors](http://ldomotors.com/) is the manufacturer of the official Bear frame upgrade kit for all distributors.
 
-![3DFused](doc/partners/3d_fused.png) &nbsp;[3DFused](https://3dfused.com/) is helping the Bear development team with linear motion knowledge and will sell custom linear rail kit for the Bear Upgrade.
+![3DFused](extra/partners/3d_fused.png) &nbsp;[3DFused](https://3dfused.com/) is helping the Bear development team with linear motion knowledge and will sell custom linear rail kit for the Bear Frame Upgrade.
 
-Grégoire Saunier is the inventor of the Original Bear Upgrade frame and extruder.
+Grégoire Saunier is the original designer of the Bear Frame Upgrade and Extruder.
 
-Florian Däubler, Josh Jones and Stefan Maue are active developers supporting the work of Grégoire Saunier.
+Bendix Sørensen, David Ogles, Florian Däubler, Josh Jones and Stefan Maue are active contributors.
 
-Barry Danks, David Ogles, Florian Däubler, Josh Jones, Nathan Denkin, Orlando from All3DMakers, Termlimit are admins of the Bear community and help with translations.
+Barry Danks, David Ogles, Florian Däubler, Josh Jones, Nathan Denkin, Orlando from All3DMakers and Termlimit are admins of the Bear community and help with documentation.
 
 
 
 ## Support my work
 
-The Bear project is made possible thanks supporters, you can participate via
+The bear project is made possible thanks to its supporters. You can participate via
 <br/><br/>
-[![become a patron](doc/icons/patreon_50px.png)](https://www.patreon.com/gregsaun)<br/>[patreon.com/gregsaun](https://www.patreon.com/gregsaun)
+[![become a patron](extra/icons/patreon_50px.png)](https://www.patreon.com/gregsaun)<br/>[patreon.com/gregsaun](https://www.patreon.com/gregsaun)
 <br/><br/>
-[![paypal.me](doc/icons/paypal_50px.png)](https://www.paypal.me/gregsaun)<br/>[paypal.me/gregsaun](https://www.paypal.me/gregsaun)
+[![paypal.me](extra/icons/paypal_50px.png)](https://www.paypal.me/gregsaun)<br/>[paypal.me/gregsaun](https://www.paypal.me/gregsaun)
 <br/><br/>
- You can also send me a tip via [Thingiverse](https://www.thingiverse.com/pekcitron/about) if you prefer that way.
+You can also send me a tip via [Thingiverse](https://www.thingiverse.com/pekcitron/about) if you prefer.
 
 Massive thank you in advance :heart:
 
@@ -165,15 +214,15 @@ Massive thank you in advance :heart:
 
 ## Thank you
 
-First of all, massive thank you to [Adrian Bowyer](https://github.com/AdrianBowyer/) for having invented [RepRap](http://reprapltd.com).
+Massive thank you to [Adrian Bowyer](https://github.com/AdrianBowyer/) for having invented [RepRap](http://reprapltd.com).
 
 Thank you to all [my Patreon's](https://guides.bear-lab.com/Wiki/Bear_Supporters)
 
-Thank you to David Ogles, Flobler, Jason from LDO Motors, Matthew Humphrey, Nathan Denkin, Orlando from All3DMakers, Saiz, Sleene, Termlimit, Vertigo235 for helping me in developing the Bear project.
+Thank you to Bendix Sørensen, David Ogles, Florian Däubler, Jason from LDO Motors, Nathan Denkin, Orlando from All3DMakers, Sleene, Termlimit, Josh Jones and Stefan Maue for helping me in developing the Bear project and for their beautiful support to the community.
 
 Thank you to all that have sent me a tip on Thingiverse and PayPal.
 
-Thank you to everybody from Facebook group and The 602 Wasteland community.
+Thank you to everybody from our Facebook group and The 602 Wasteland community.
 
 Thank you for having purchased a kit from an official distributor.
 
@@ -181,7 +230,7 @@ Thank you to all official distributors for taking care of the kits and customers
 
 Thank you Jason from LDO Motors for the quality manufacturing and relationship.
 
-Thank you Openbuilds for your hardware, community and state of mind.
+Thank you Openbuilds<sup>&reg;</sup> for your hardware, community and state of mind.
 
 Thank you for making the community alive with all your comments, issues, pull requests, optional parts, make, pictures, etc.
 
@@ -189,7 +238,7 @@ Thank you for making the community alive with all your comments, issues, pull re
 
 ## License
 
-This repository and all its files are licensed under the GPLv3 license. Here is a quick summary; for more details please check the LICENSE file.
+All files in this repository are licensed under the GPLv3 license (unless otherwise noted). Here is a quick summary; for more details please check the LICENSE file.
 
 What you __can__ do:
   * Modify
@@ -203,16 +252,17 @@ What you __must__ do:
   * Use the same license (GPLv3)
   * Document changes applied
 
+Note: STL and STEP files are generally not source files. The source files are those you use to design your project such as CAD files (Fusion 360), mechanical drawings, code, documentation, etc. However, STL and STEP files are a commonly used format with great interoperability. Therefore, we encourage to share the STL and STEP files in addition to the source files.
+
 
 
 ## Credit, sources and inspiration
 
-Here is list of sources and inspiration :
-
-  * Original Prusa i3 printers : [prusa3d.com](http://www.prusa3d.com).
-  * Prusa 3030 Haribo Edition : [github.com/PrusaMK2Users/3030_Haribo_Edition](https://github.com/PrusaMK2Users/3030_Haribo_Edition).
-  * Openbuilds for the invention of opensource vslot extrusions : [openbuilds.org](https://www.openbuilds.org).
+  * [Adrian Bowyer](https://github.com/AdrianBowyer/) for having invented [RepRap](http://reprapltd.com).
+  * Original Prusa i3 printers: [prusa3d.com](http://www.prusa3d.com).
+  * Prusa 3030 Haribo Edition: [github.com/PrusaMK2Users/3030_Haribo_Edition](https://github.com/PrusaMK2Users/3030_Haribo_Edition).
+  * Openbuilds<sup>&reg;</sup> for the invention of open source V-Slot<sup>&reg;</sup> extrusions : [openbuilds.org](https://www.openbuilds.org).
   * Roy Henriksson for the inspiration of his Y axis tensioner : [thingiverse.com/thing:3502543](https://www.thingiverse.com/thing:3502543).
   * Vecko Kojchevski for his Z axis parts and feedback : [thingiverse.com/vekoj/designs](https://www.thingiverse.com/vekoj/designs).
 
-Massive thanks to these projects, without them this project can not exist!
+Massive thanks to these projects, without them the Bear could not exist!
